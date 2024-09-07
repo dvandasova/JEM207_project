@@ -4,22 +4,292 @@ Enter event code from the list of codes on the line below:
 
 Only select matches that have not yet occured.
 
-Event codes:
-bundes01: VfL Bochum 1848 vs. Mainz 05, 27.10.2024
-bundes02: FC Bayern München vs. SC Darmstadt 98, 28.10.2024
-bundes03: Borussia Mönchengladbach vs. FC Heidenheim 1846, 28.10.2024
-bundes04: SV Werder Bremen vs. FC Union Berlin, 28.10.2024
-bundes05: FC Augsburg vs. VfL Wolfsburg, 28.10.2024
-bundes06: VfB Stuttgart vs. TSG Hoffenheim, 28.10.2024
-bundes07: RB Leipzig vs. FC Köln, 28.10.2024
-bundes08: Eintracht Frankfurt vs. Borussia Dortmund, 29.10.2024
-bundes09
-bundes10
-bundes11
-bundes12
-bundes13
-bundes14
-bundes15
-bundes16
-bundes17
-bundes18
+code	
+bundes001, 21.09.2024, RB Leipzig vs. Union Berlin, Leipzig
+bundes002, 21.09.2024, Borussia Dortmund vs. Heidenheim 1846, Dortmund
+bundes003, 21.09.2024, 1899 Sinsheim vs. Bayer Leverkusen, Sinsheim
+bundes004, 21.09.2024, Freiburg vs. Bochum, Freiburg
+bundes005, 21.09.2024, Augsburg vs. St. Pauli, Augsburg
+bundes006, 21.09.2024, Wolfsburg vs. Eintracht Frankfurt, Wolfsburg
+bundes007, 21.09.2024, Mainz 05 vs. Werder Bremen, Mainz
+bundes008, 21.09.2024, Bor. Mönchengladbach vs. VfB Stuttgart, Mönchengladbach
+bundes009, 21.09.2024, Holstein Kiel vs. Bayern München, Kiel
+bundes010, 21.09.2024, Bayer Leverkusen vs. Wolfsburg, Leverkusen
+bundes011, 21.09.2024, VfB Stuttgart vs. Borussia Dortmund, Stuttgart
+bundes012, 21.09.2024, Eintracht Frankfurt vs. Bor. Mönchengladbach, Frankfurt
+bundes013, 21.09.2024, Heidenheim 1846 vs. Freiburg, Heidenheim
+bundes014, 21.09.2024, Werder Bremen vs. Bayern München, Bremen
+bundes015, 21.09.2024, Augsburg vs. Mainz 05, Augsburg
+bundes016, 21.09.2024, Union Berlin vs. 1899 Sinsheim, Berlin
+bundes017, 21.09.2024, Bochum vs. Holstein Kiel, Bochum
+bundes018, 21.09.2024, St. Pauli vs. RB Leipzig, Hamburg
+bundes019, 28.09.2024, Bayern München vs. Bayer Leverkusen, Munich
+bundes020, 28.09.2024, RB Leipzig vs. Augsburg, Leipzig
+bundes021, 28.09.2024, Borussia Dortmund vs. Bochum, Dortmund
+bundes022, 28.09.2024, 1899 Sinsheim vs. Werder Bremen, Sinsheim
+bundes023, 28.09.2024, Freiburg vs. St. Pauli, Freiburg
+bundes024, 28.09.2024, Wolfsburg vs. VfB Stuttgart, Wolfsburg
+bundes025, 28.09.2024, Mainz 05 vs. Heidenheim 1846, Mainz
+bundes026, 28.09.2024, Bor. Mönchengladbach vs. Union Berlin, Mönchengladbach
+bundes027, 28.09.2024, Holstein Kiel vs. Eintracht Frankfurt, Kiel
+bundes028, 05.10.2024, Bayer Leverkusen vs. Holstein Kiel, Leverkusen
+bundes029, 05.10.2024, VfB Stuttgart vs. 1899 Sinsheim, Stuttgart
+bundes030, 05.10.2024, Eintracht Frankfurt vs. Bayern München, Frankfurt
+bundes031, 05.10.2024, Heidenheim 1846 vs. RB Leipzig, Heidenheim
+bundes032, 05.10.2024, Werder Bremen vs. Freiburg, Bremen
+bundes033, 05.10.2024, Augsburg vs. Bor. Mönchengladbach, Augsburg
+bundes034, 05.10.2024, Union Berlin vs. Borussia Dortmund, Berlin
+bundes035, 05.10.2024, Bochum vs. Wolfsburg, Bochum
+bundes036, 05.10.2024, St. Pauli vs. Mainz 05, Hamburg
+bundes037, 19.10.2024, Bayer Leverkusen vs. Eintracht Frankfurt, Leverkusen
+bundes038, 19.10.2024, Bayern München vs. VfB Stuttgart, Munich
+bundes039, 19.10.2024, Borussia Dortmund vs. St. Pauli, Dortmund
+bundes040, 19.10.2024, 1899 Sinsheim vs. Bochum, Sinsheim
+bundes041, 19.10.2024, Freiburg vs. Augsburg, Freiburg
+bundes042, 19.10.2024, Wolfsburg vs. Werder Bremen, Wolfsburg
+bundes043, 19.10.2024, Mainz 05 vs. RB Leipzig, Mainz
+bundes044, 19.10.2024, Bor. Mönchengladbach vs. Heidenheim 1846, Mönchengladbach
+bundes045, 19.10.2024, Holstein Kiel vs. Union Berlin, Kiel
+bundes046, 26.10.2024, VfB Stuttgart vs. Holstein Kiel, Stuttgart
+bundes047, 26.10.2024, RB Leipzig vs. Freiburg, Leipzig
+bundes048, 26.10.2024, Heidenheim 1846 vs. 1899 Sinsheim, Heidenheim
+bundes049, 26.10.2024, Werder Bremen vs. Bayer Leverkusen, Bremen
+bundes050, 26.10.2024, Augsburg vs. Borussia Dortmund, Augsburg
+bundes051, 26.10.2024, Mainz 05 vs. Bor. Mönchengladbach, Mainz
+bundes052, 26.10.2024, Union Berlin vs. Eintracht Frankfurt, Berlin
+bundes053, 26.10.2024, Bochum vs. Bayern München, Bochum
+bundes054, 26.10.2024, St. Pauli vs. Wolfsburg, Hamburg
+bundes055, 02.11.2024, Bayer Leverkusen vs. VfB Stuttgart, Leverkusen
+bundes056, 02.11.2024, Bayern München vs. Union Berlin, Munich
+bundes057, 02.11.2024, Borussia Dortmund vs. RB Leipzig, Dortmund
+bundes058, 02.11.2024, Eintracht Frankfurt vs. Bochum, Frankfurt
+bundes059, 02.11.2024, 1899 Sinsheim vs. St. Pauli, Sinsheim
+bundes060, 02.11.2024, Freiburg vs. Mainz 05, Freiburg
+bundes061, 02.11.2024, Wolfsburg vs. Augsburg, Wolfsburg
+bundes062, 02.11.2024, Bor. Mönchengladbach vs. Werder Bremen, Mönchengladbach
+bundes063, 02.11.2024, Holstein Kiel vs. Heidenheim 1846, Kiel
+bundes064, 09.11.2024, VfB Stuttgart vs. Eintracht Frankfurt, Stuttgart
+bundes065, 09.11.2024, RB Leipzig vs. Bor. Mönchengladbach, Leipzig
+bundes066, 09.11.2024, Heidenheim 1846 vs. Wolfsburg, Heidenheim
+bundes067, 09.11.2024, Werder Bremen vs. Holstein Kiel, Bremen
+bundes068, 09.11.2024, Augsburg vs. 1899 Sinsheim, Augsburg
+bundes069, 09.11.2024, Mainz 05 vs. Borussia Dortmund, Mainz
+bundes070, 09.11.2024, Union Berlin vs. Freiburg, Berlin
+bundes071, 09.11.2024, Bochum vs. Bayer Leverkusen, Bochum
+bundes072, 09.11.2024, St. Pauli vs. Bayern München, Hamburg
+bundes073, 23.11.2024, Bayer Leverkusen vs. Heidenheim 1846, Leverkusen
+bundes074, 23.11.2024, VfB Stuttgart vs. Bochum, Stuttgart
+bundes075, 23.11.2024, Bayern München vs. Augsburg, Munich
+bundes076, 23.11.2024, Borussia Dortmund vs. Freiburg, Dortmund
+bundes077, 23.11.2024, Eintracht Frankfurt vs. Werder Bremen, Frankfurt
+bundes078, 23.11.2024, 1899 Sinsheim vs. RB Leipzig, Sinsheim
+bundes079, 23.11.2024, Wolfsburg vs. Union Berlin, Wolfsburg
+bundes080, 23.11.2024, Bor. Mönchengladbach vs. St. Pauli, Mönchengladbach
+bundes081, 23.11.2024, Holstein Kiel vs. Mainz 05, Kiel
+bundes082, 23.11.2024, RB Leipzig vs. Wolfsburg, Leipzig
+bundes083, 23.11.2024, Borussia Dortmund vs. Bayern München, Dortmund
+bundes084, 23.11.2024, Heidenheim 1846 vs. Eintracht Frankfurt, Heidenheim
+bundes085, 23.11.2024, Werder Bremen vs. VfB Stuttgart, Bremen
+bundes086, 23.11.2024, Freiburg vs. Bor. Mönchengladbach, Freiburg
+bundes087, 23.11.2024, Augsburg vs. Bochum, Augsburg
+bundes088, 23.11.2024, Mainz 05 vs. 1899 Sinsheim, Mainz
+bundes089, 23.11.2024, Union Berlin vs. Bayer Leverkusen, Berlin
+bundes090, 23.11.2024, St. Pauli vs. Holstein Kiel, Hamburg
+bundes091, 07.12.2024, Bayer Leverkusen vs. St. Pauli, Leverkusen
+bundes092, 07.12.2024, VfB Stuttgart vs. Union Berlin, Stuttgart
+bundes093, 07.12.2024, Bayern München vs. Heidenheim 1846, Munich
+bundes094, 07.12.2024, Eintracht Frankfurt vs. Augsburg, Frankfurt
+bundes095, 07.12.2024, 1899 Sinsheim vs. Freiburg, Sinsheim
+bundes096, 07.12.2024, Wolfsburg vs. Mainz 05, Wolfsburg
+bundes097, 07.12.2024, Bor. Mönchengladbach vs. Borussia Dortmund, Mönchengladbach
+bundes098, 07.12.2024, Bochum vs. Werder Bremen, Bochum
+bundes099, 07.12.2024, Holstein Kiel vs. RB Leipzig, Kiel
+bundes100, 14.12.2024, RB Leipzig vs. Eintracht Frankfurt, Leipzig
+bundes101, 14.12.2024, Borussia Dortmund vs. 1899 Sinsheim, Dortmund
+bundes102, 14.12.2024, Heidenheim 1846 vs. VfB Stuttgart, Heidenheim
+bundes103, 14.12.2024, Freiburg vs. Wolfsburg	Freiburg
+bundes104, 14.12.2024, Mainz 05 vs. Bayern München, Mainz
+bundes105, 14.12.2024, Bor. Mönchengladbach vs. Holstein Kiel, Mönchengladbach
+bundes106, 14.12.2024, Union Berlin vs. Bochum, Berlin
+bundes107, 14.12.2024, St. Pauli vs. Werder Bremen, Hamburg
+bundes108, 14.12.2024, Augsburg vs. Bayer Leverkusen, Augsburg
+bundes109, 12.12.2024, Bayer Leverkusen vs. Freiburg, Leverkusen
+bundes110, 12.12.2024, VfB Stuttgart vs. St. Pauli, Stuttgart
+bundes111, 12.12.2024, Bayern München vs. RB Leipzig, Munich
+bundes112, 12.12.2024, Eintracht Frankfurt vs. Mainz 05, Frankfurt
+bundes113, 12.12.2024, 1899 Sinsheim vs. Bor. Mönchengladbach, Sinsheim
+bundes114, 12.12.2024, Werder Bremen vs. Union Berlin, Bremen
+bundes115, 12.12.2024, Wolfsburg vs. Borussia Dortmund, Wolfsburg
+bundes116, 12.12.2024, Bochum vs. Heidenheim 1846, Bochum
+bundes117, 12.12.2024, Holstein Kiel vs. Augsburg, Kiel
+bundes118, 11.01.2025, RB Leipzig vs. Werder Bremen, Leipzig
+bundes119, 11.01.2025, Borussia Dortmund vs. Bayer Leverkusen, Dortmund
+bundes120, 11.01.2025, 1899 Sinsheim vs. Wolfsburg, Sinsheim
+bundes121, 11.01.2025, Heidenheim 1846 vs. Union Berlin, Heidenheim
+bundes122, 11.01.2025, Freiburg vs. Holstein Kiel, Freiburg
+bundes123, 11.01.2025, Augsburg vs. VfB Stuttgart, Augsburg
+bundes124, 11.01.2025, Mainz 05 vs. Bochum, Mainz
+bundes125, 11.01.2025, Bor. Mönchengladbach vs. Bayern München, Mönchengladbach
+bundes126, 11.01.2025, St. Pauli vs. Eintracht Frankfurt, Hamburg
+bundes127, 14.01.2025, Bayer Leverkusen vs. Mainz 05, Leverkusen
+bundes128, 14.01.2025, VfB Stuttgart vs. RB Leipzig, Stuttgart
+bundes129, 14.01.2025, Bayern München vs. 1899 Sinsheim, Munich
+bundes130, 14.01.2025, Eintracht Frankfurt vs. Freiburg, Frankfurt
+bundes131, 14.01.2025, Werder Bremen vs. Heidenheim 1846, Bremen
+bundes132, 14.01.2025, Wolfsburg vs. Bor. Mönchengladbach, Wolfsburg
+bundes133, 14.01.2025, Union Berlin vs. Augsburg, Berlin
+bundes134, 14.01.2025, Bochum vs. St. Pauli, Bochum
+bundes135, 14.01.2025, Holstein Kiel vs. Borussia Dortmund, Kiel
+bundes136, 18.01.2025, Bayer Leverkusen vs. Bor. Mönchengladbach, Leverkusen
+bundes137, 18.01.2025, Bochum vs. RB Leipzig, Bochum
+bundes138, 18.01.2025, Eintracht Frankfurt vs. Borussia Dortmund, Frankfurt
+bundes139, 18.01.2025, Holstein Kiel vs. 1899 Sinsheim, Kiel
+bundes140, 18.01.2025, VfB Stuttgart vs. Freiburg, Stuttgart
+bundes141, 18.01.2025, Werder Bremen vs. Augsburg, Bremen
+bundes142, 18.01.2025, Bayern München vs. Wolfsburg, Munich
+bundes143, 18.01.2025, Union Berlin vs. Mainz 05, Berlin
+bundes144, 18.01.2025, Heidenheim 1846 vs. St. Pauli, Heidenheim
+bundes145, 25.01.2025, RB Leipzig vs. Bayer Leverkusen, Leipzig
+bundes146, 25.01.2025, Mainz 05 vs. VfB Stuttgart, Mainz
+bundes147, 25.01.2025, Freiburg vs. Bayern München, Freiburg
+bundes148, 25.01.2025, 1899 Sinsheim vs. Eintracht Frankfurt, Sinsheim
+bundes149, 25.01.2025, Augsburg vs. Heidenheim 1846, Augsburg
+bundes150, 25.01.2025, Borussia Dortmund vs. Werder Bremen, Dortmund
+bundes151, 25.01.2025, St. Pauli vs. Union Berlin, Hamburg
+bundes152, 25.01.2025, Bor. Mönchengladbach vs. Bochum, Mönchengladbach
+bundes153, 25.01.2025, Wolfsburg vs. Holstein Kiel, Wolfsburg
+bundes154, 01.02.2025, Union Berlin vs. RB Leipzig, Berlin
+bundes155, 01.02.2025, Heidenheim 1846 vs. Borussia Dortmund, Heidenheim
+bundes156, 01.02.2025, Bayer Leverkusen vs. 1899 Sinsheim, Leverkusen
+bundes157, 01.02.2025, Bochum vs. Freiburg, Bochum
+bundes158, 01.02.2025, St. Pauli vs. Augsburg, Hamburg
+bundes159, 01.02.2025, Eintracht Frankfurt vs. Wolfsburg, Frankfurt
+bundes160, 01.02.2025, Werder Bremen vs. Mainz 05, Bremen
+bundes161, 01.02.2025, VfB Stuttgart vs. Bor. Mönchengladbach, Stuttgart
+bundes162, 01.02.2025, Bayern München vs. Holstein Kiel, Munich
+bundes163, 08.02.2025, Wolfsburg vs. Bayer Leverkusen, Wolfsburg
+bundes164, 08.02.2025, Borussia Dortmund vs. VfB Stuttgart, Dortmund
+bundes165, 08.02.2025, Bor. Mönchengladbach vs. Eintracht Frankfurt, Mönchengladbach
+bundes166, 08.02.2025, Freiburg vs. Heidenheim 1846, Freiburg
+bundes167, 08.02.2025, Bayern München vs. Werder Bremen, Munich
+bundes168, 08.02.2025, Mainz 05 vs. Augsburg, Mainz
+bundes169, 08.02.2025, 1899 Sinsheim vs. Union Berlin, Sinsheim
+bundes170, 08.02.2025, Holstein Kiel vs. Bochum, Kiel
+bundes171, 08.02.2025, RB Leipzig vs. St. Pauli, Leipzig
+bundes172, 15.02.2025, Bayer Leverkusen vs. Bayern München, Leverkusen
+bundes173, 15.02.2025, Augsburg vs. RB Leipzig, Augsburg
+bundes174, 15.02.2025, Bochum vs. Borussia Dortmund, Bochum
+bundes175, 15.02.2025, Werder Bremen vs. 1899 Sinsheim, Bremen
+bundes176, 15.02.2025, St. Pauli vs. Freiburg, Hamburg
+bundes177, 15.02.2025, VfB Stuttgart vs. Wolfsburg, Stuttgart
+bundes178, 15.02.2025, Heidenheim 1846 vs. Mainz 05, Heidenheim
+bundes179, 15.02.2025, Union Berlin vs. Bor. Mönchengladbach, Berlin
+bundes180, 15.02.2025, Eintracht Frankfurt vs. Holstein Kiel, Frankfurt
+bundes181, 22.02.2025, Holstein Kiel vs. Bayer Leverkusen, Kiel
+bundes182, 22.02.2025, 1899 Sinsheim vs. VfB Stuttgart, Sinsheim
+bundes183, 22.02.2025, Bayern München vs. Eintracht Frankfurt, Munich
+bundes184, 22.02.2025, RB Leipzig vs. Heidenheim 1846, Leipzig
+bundes185, 22.02.2025, Freiburg vs. Werder Bremen, Freiburg
+bundes186, 22.02.2025, Bor. Mönchengladbach vs. Augsburg, Mönchengladbach
+bundes187, 22.02.2025, Borussia Dortmund vs. Union Berlin, Dortmund
+bundes188, 22.02.2025, Wolfsburg vs. Bochum, Wolfsburg
+bundes189, 22.02.2025, Mainz 05 vs. St. Pauli, Mainz
+bundes190, 01.03.2025, Eintracht Frankfurt vs. Bayer Leverkusen, Frankfurt
+bundes191, 01.03.2025, VfB Stuttgart vs. Bayern München, Stuttgart
+bundes192, 01.03.2025, St. Pauli vs. Borussia Dortmund, Hamburg
+bundes193, 01.03.2025, Bochum vs. 1899 Sinsheim, Bochum
+bundes194, 01.03.2025, Augsburg vs. Freiburg, Augsburg
+bundes195, 01.03.2025, Werder Bremen vs. Wolfsburg, Bremen
+bundes196, 01.03.2025, RB Leipzig vs. Mainz 05, Leipzig
+bundes197, 01.03.2025, Heidenheim 1846 vs. Bor. Mönchengladbach, Heidenheim
+bundes198, 01.03.2025, Union Berlin vs. Holstein Kiel, Berlin
+bundes199, 08.03.2025, Holstein Kiel vs. VfB Stuttgart, Kiel
+bundes200, 08.03.2025, Freiburg vs. RB Leipzig, Freiburg
+bundes201, 08.03.2025, 1899 Sinsheim vs. Heidenheim 1846, Sinsheim
+bundes202, 08.03.2025, Bayer Leverkusen vs. Werder Bremen, Leverkusen
+bundes203, 08.03.2025, Borussia Dortmund vs. Augsburg, Dortmund
+bundes204, 08.03.2025, Bor. Mönchengladbach vs. Mainz 05, Mönchengladbach
+bundes205, 08.03.2025, Eintracht Frankfurt vs. Union Berlin, Frankfurt
+bundes206, 08.03.2025, Bayern München vs. Bochum, Munich
+bundes207, 08.03.2025, Wolfsburg vs. St. Pauli, Wolfsburg
+bundes208, 15.03.2025, VfB Stuttgart vs. Bayer Leverkusen, Stuttgart
+bundes209, 15.03.2025, Union Berlin vs. Bayern München, Berlin
+bundes210, 15.03.2025, RB Leipzig vs. Borussia Dortmund, Leipzig
+bundes211, 15.03.2025, Bochum vs. Eintracht Frankfurt, Bochum
+bundes212, 15.03.2025, St. Pauli vs. 1899 Sinsheim, Hamburg
+bundes213, 15.03.2025, Mainz 05 vs. Freiburg, Mainz
+bundes214, 15.03.2025, Augsburg vs. Wolfsburg, Augsburg
+bundes215, 15.03.2025, Werder Bremen vs. Bor. Mönchengladbach, Bremen
+bundes216, 15.03.2025, Heidenheim 1846 vs. Holstein Kiel, Heidenheim
+bundes217, 29.03.2025, Eintracht Frankfurt vs. VfB Stuttgart, Frankfurt
+bundes218, 29.03.2025, Bor. Mönchengladbach vs. RB Leipzig, Mönchengladbach
+bundes219, 29.03.2025, Wolfsburg vs. Heidenheim 1846, Wolfsburg
+bundes220, 29.03.2025, Holstein Kiel vs. Werder Bremen, Kiel
+bundes221, 29.03.2025, 1899 Sinsheim vs. Augsburg, Sinsheim
+bundes222, 29.03.2025, Borussia Dortmund vs. Mainz 05, Dortmund
+bundes223, 29.03.2025, Freiburg vs. Union Berlin, Freiburg
+bundes224, 29.03.2025, Bayer Leverkusen vs. Bochum, Leverkusen
+bundes225, 29.03.2025, Bayern München vs. St. Pauli, Munich
+bundes226, 05.04.2025, Heidenheim 1846 vs. Bayer Leverkusen, Heidenheim
+bundes227, 05.04.2025, Bochum vs. VfB Stuttgart, Bochum
+bundes228, 05.04.2025, Augsburg vs. Bayern München, Augsburg
+bundes229, 05.04.2025, Freiburg vs. Borussia Dortmund, Freiburg
+bundes230, 05.04.2025, Werder Bremen vs. Eintracht Frankfurt, Bremen
+bundes231, 05.04.2025, RB Leipzig vs. 1899 Sinsheim, Leipzig
+bundes232, 05.04.2025, Union Berlin vs. Wolfsburg, Berlin
+bundes233, 05.04.2025, St. Pauli vs. Bor. Mönchengladbach, Hamburg
+bundes234, 05.04.2025, Mainz 05 vs. Holstein Kiel, Mainz
+bundes235, 12.04.2025, Wolfsburg vs. RB Leipzig, Wolfsburg
+bundes236, 12.04.2025, Bayern München vs. Borussia Dortmund, Munich
+bundes237, 12.04.2025, Eintracht Frankfurt vs. Heidenheim 1846, Frankfurt
+bundes238, 12.04.2025, VfB Stuttgart vs. Werder Bremen, Stuttgart
+bundes239, 12.04.2025, Bor. Mönchengladbach vs. Freiburg, Mönchengladbach
+bundes240, 12.04.2025, Bochum vs. Augsburg, Bochum
+bundes241, 12.04.2025, 1899 Sinsheim vs. Mainz 05, Sinsheim
+bundes242, 12.04.2025, Bayer Leverkusen vs. Union Berlin, Leverkusen
+bundes243, 12.04.2025, Holstein Kiel vs. St. Pauli, Kiel
+bundes244, 19.04.2025, St. Pauli vs. Bayer Leverkusen, Hamburg
+bundes245, 19.04.2025, Union Berlin vs. VfB Stuttgart, Berlin
+bundes246, 19.04.2025, Heidenheim 1846 vs. Bayern München, Heidenheim
+bundes247, 19.04.2025, Augsburg vs. Eintracht Frankfurt, Augsburg
+bundes248, 19.04.2025, Freiburg vs. 1899 Sinsheim, Freiburg
+bundes249, 19.04.2025, Mainz 05 vs. Wolfsburg, Mainz
+bundes250, 19.04.2025, Borussia Dortmund vs. Bor. Mönchengladbach, Dortmund
+bundes251, 19.04.2025, Werder Bremen vs. Bochum, Bremen
+bundes252, 19.04.2025, RB Leipzig vs. Holstein Kiel, Leipzig
+bundes253, 26.04.2025, Eintracht Frankfurt vs. RB Leipzig, Frankfurt
+bundes254, 26.04.2025, 1899 Sinsheim vs. Borussia Dortmund, Sinsheim
+bundes255, 26.04.2025, VfB Stuttgart vs. Heidenheim 1846, Stuttgart
+bundes256, 26.04.2025, Wolfsburg vs. Freiburg, Wolfsburg
+bundes257, 26.04.2025, Bayern München vs. Mainz 05, Munich
+bundes258, 26.04.2025, Holstein Kiel vs. Bor. Mönchengladbach, Kiel
+bundes259, 26.04.2025, Bochum vs. Union Berlin, Bochum
+bundes260, 26.04.2025, Werder Bremen vs. St. Pauli, Bremen
+bundes261, 26.04.2025, Bayer Leverkusen vs. Augsburg, Leverkusen
+bundes262, 03.05.2025, Freiburg vs. Bayer Leverkusen, Freiburg
+bundes263, 03.05.2025, St. Pauli vs. VfB Stuttgart, Hamburg
+bundes264, 03.05.2025, RB Leipzig vs. Bayern München, Leipzig
+bundes265, 03.05.2025, Mainz 05 vs. Eintracht Frankfurt, Mainz
+bundes266, 03.05.2025, Bor. Mönchengladbach vs. 1899 Sinsheim, Mönchengladbach
+bundes267, 03.05.2025, Union Berlin vs. Werder Bremen, Berlin
+bundes268, 03.05.2025, Borussia Dortmund vs. Wolfsburg, Dortmund
+bundes269, 03.05.2025, Heidenheim 1846 vs. Bochum, Heidenheim
+bundes270, 03.05.2025, Augsburg vs. Holstein Kiel, Augsburg
+bundes271, 10.05.2025, Werder Bremen vs. RB Leipzig, Bremen
+bundes272, 10.05.2025, Bayer Leverkusen vs. Borussia Dortmund, Leverkusen
+bundes273, 10.05.2025, Wolfsburg vs. 1899 Sinsheim, Wolfsburg
+bundes274, 10.05.2025, Union Berlin vs. Heidenheim 1846, Berlin
+bundes275, 10.05.2025, Holstein Kiel vs. Freiburg, Kiel
+bundes276, 10.05.2025, VfB Stuttgart vs. Augsburg, Stuttgart
+bundes277, 10.05.2025, Bochum vs. Mainz 05, Bochum
+bundes278, 10.05.2025, Bayern München vs. Bor. Mönchengladbach, Munich
+bundes279, 10.05.2025, Eintracht Frankfurt vs. St. Pauli, Frankfurt
+bundes280, 17.05.2025, Mainz 05 vs. Bayer Leverkusen, Mainz
+bundes281, 17.05.2025, RB Leipzig vs. VfB Stuttgart, Leipzig
+bundes282, 17.05.2025, 1899 Sinsheim vs. Bayern München, Sinsheim
+bundes283, 17.05.2025, Freiburg vs. Eintracht Frankfurt, Freiburg
+bundes284, 17.05.2025, Heidenheim 1846 vs. Werder Bremen, Heidenheim
+bundes285, 17.05.2025, Bor. Mönchengladbach vs. Wolfsburg, Mönchengladbach
+bundes286, 17.05.2025, Augsburg vs. Union Berlin, Augsburg
+bundes287, 17.05.2025, St. Pauli vs. Bochum, Hamburg
+bundes288, 17.05.2025, Borussia Dortmund vs. Holstein Kiel, Dortmund
