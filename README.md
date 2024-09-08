@@ -24,8 +24,9 @@ Spectators Unlimited Ltd. solution contains the following components:
 
 Each component and its functionalities are further described below.
 
-#### Input & User Interface
+#### Input
 [to be finalized upon finishing the code]
+[Disclaimer] For the input to work it is necessary to download the internal-data excel file and the input txt file from the repository "Datasets" and replace filepaths leading to the files in your repository.
 - Accepts .txt file with a code of event
 - The file also contains the full list of events with available codes to choose from
 - After reading the .txt file, the app then contain a condition that results in error messafe if the code does not match with codes from the list
