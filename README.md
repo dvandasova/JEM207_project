@@ -16,22 +16,29 @@ We bring sports tourism to the public such that once someone secures their ticke
 ### Project Components
 Spectators Unlimited Ltd. solution contains the following components:
 1. Input
-2. Flights
-3. Accommodation Possibilities
-4. Geo-locations
-5. Combination Algorithm
-6. Output
+2. Scraping (flights & accommodation possibilitiesú
+5. Geo-locations
+6. Combination Algorithm
+7. Output
 
 Each component and its functionalities are further described below.
 
 #### Input
-[to be finalized upon finishing the code]
-[Disclaimer] For the input to work it is necessary to download the internal-data excel file and the input txt file from the repository "Datasets" and replace filepaths leading to the files in your repository.
-- Accepts .txt file with a code of event
-- The file also contains the full list of events with available codes to choose from
-- After reading the .txt file, the app then contain a condition that results in error messafe if the code does not match with codes from the list
+The input section of the code loads the internal database from the git repository, checks for correct form the file (correct content and prder of columns) and saves the data as a data frame with the date in date-time format. 
 
-#### Flights
+Then, the user input containing a unique match code inserted by the user is loaded. The code then checks whether the match code is valid and whether it points to a date in the future (there will be no flights and accommodation options for dates that occured in the past).
+
+Finally, the code extracts the primary match code and subsequently the corresponding line in the internal database.
+
+##### How to use
+For the input to work it is necessary to download the input .txt file from the repository "02_Datasets" and replace the filepath leading to the file in your repository. The internal database of matches is uploaded directly from the git repository and does not require further attention.
+
+To make an input, open the input .txt file and select your desired match from the list of matches. Then insert the match code on the 2nd line in the input .txt file.
+
+Now you are good to proceed with the rest.
+
+#### Scraping
+##### Flights
 [to be finalized upon finishing the code]
 - What library/ API was used?
 - What site was scraped?
