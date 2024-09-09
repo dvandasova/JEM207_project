@@ -96,3 +96,60 @@ def scrape_accommodation_data(location, departure_date, return_date, max_retries
     booking_data_df['Price_numeric'] = pd.to_numeric(booking_data_df['Price_numeric'], errors='coerce')
 
     return booking_data_df
+
+
+driver = webdriver.Chrome()
+def scrape_min_price(city, departure_date, return_date):
+    url = f"https://www.kayak.ie/flights/PRG-{city}/{departure_date}/{return_date}?sort=bestflight_a"
+    driver.get(url)
+    sleep(10)  # Adjust the sleep time as necessary
+    
+    # Close any popups that may appear
+    try:
+        popwindow = driver.find_element("xpath", '//*[@id="portal-container"]/div/div[2]/div/div/div[1]/div/span[2]/button/div/div')
+        popwindow.click()
+    except Exception:
+        pass  # Ignore if no popup appears
+
+    # Find all flight rows
+    flight_rows = driver.find_elements("xpath", '//div[@class="nrc6-inner"]')
+
+    flight_prices = []
+
+    # Scrape flight prices from each row
+    for row in flight_rows:
+        elementHTML = row.get_attribute('outerHTML')
+        elementSoup = BeautifulSoup(elementHTML, 'html.parser')
+
+        price = elementSoup.find("div", {"class": "f8F1-price-text"})
+
+        if price:
+            # Clean and append price (removing currency symbols)
+            price_text = price.text.replace('€', '').replace(',', '').strip()
+            try:
+                flight_prices.append(float(price_text))  # Convert to float
+            except ValueError:
+                pass  # Skip if conversion fails
+
+    return min(flight_prices) if flight_prices else None
+
+# Loop through each row in the DataFrame
+min_prices = []
+for index, row in df.iterrows():
+    city = row['flight.Code']  
+    departure_date = row['date'].strftime('%Y-%m-%d') 
+
+    # Calculate the return date as departure date + 2 days
+    return_date = (row['date'] + timedelta(days=2)).strftime('%Y-%m-%d')
+    
+    min_price = scrape_min_price(city, departure_date, return_date)
+    
+    # Append the minimum price to the list
+    min_prices.append(min_price)
+
+    print(min_price)
+
+# Add the minimum price as a new column in the original DataFrame
+df['Min Price'] = min_prices
+
+driver.quit()
