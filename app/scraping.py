@@ -1,9 +1,23 @@
+!pip install requests
+!pip install seaborn
+!pip install pandas openpyxl
 from time import sleep
-from selenium.webdriver.common.action_chains import ActionChains
-from selenium.webdriver.common.keys import Keys
 import pandas as pd
-from bs4 import BeautifulSoup
+import numpy as np
+import requests
+from datetime import timedelta
+from datetime import datetime
+from time import sleep
 from selenium import webdriver
+from bs4 import BeautifulSoup
+import os
+from itertools import product
+from selenium.webdriver.chrome.service import Service
+from selenium.webdriver.common.by import By
+from selenium.webdriver.common.keys import Keys
+from selenium.webdriver.common.action_chains import ActionChains
+from selenium.common.exceptions import StaleElementReferenceException
+from io import BytesIO
 
 # Function to start a new WebDriver session
 def start_webdriver():
