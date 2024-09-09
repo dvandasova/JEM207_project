@@ -68,7 +68,7 @@ Departure and return dates
 Flight prices
 And inherently also the cheapest flight by further processing the obtained flight prices (it would be possible to also account for the quality of the flight, e.g. airline, departure time, with flights in the night being less desirable etc.), but even though adding this feature would not be difficult, the complexity was already high to not include it.
 
-######Captcha challenge
+###### Captcha challenge
 CAPTCHA sometimes appearing after longer periods of scraping (usually 15-20 minutes), which on a few hour scrape poses an issue. We partially solved it by reloading the WebDriver after each scraping iteration, essentially clearing the cache and lowering the chances of being caugth by captcha, reloading the page multiple times, which on multiple occasions was able to bypass the captcha completely, and lastly using Selenium which imitates human behavior, i.e. further decreasing the risk of CAPTCHA. 
 To be completely honest, there is still a risk of CAPTCHA, but we did our best to limit the risks. 
 
