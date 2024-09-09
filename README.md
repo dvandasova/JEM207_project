@@ -53,10 +53,9 @@ Now you are good to proceed with the rest.
 - What attributes were obtained?
 
 #### Geo-locations
-[to be finalized upon finishing the code]
-- What library/ API was used?
-- How were locations obtained
-- How were distances obtained
+Geo-location, i.e., distance between accommodation and the match venue, is one of the criteria used to sort and create the accommodation bundles. 
+
+To calculate the distances, we used the geopy library to first obtain coordinates of the accommodation possibilites and the match venue, then we calculated the distance between them and sorted from nearest to furthest. After that, a range of all the distances was created and the accommodation possibilities were ranked into 3 categories based on percentiles within that range.
 
 #### Combination Algorythm
 [to be finalized upon finishing the code]
