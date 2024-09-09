@@ -1,6 +1,3 @@
-!pip install requests
-!pip install seaborn
-!pip install pandas openpyxl
 from time import sleep
 import pandas as pd
 import numpy as np
