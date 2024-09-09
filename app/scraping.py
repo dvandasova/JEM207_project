@@ -16,6 +16,7 @@ from selenium.webdriver.common.action_chains import ActionChains
 from selenium.common.exceptions import StaleElementReferenceException
 from io import BytesIO
 
+df = pd.DataFrame()
 # Function to start a new WebDriver session
 def start_webdriver():
     driver = webdriver.Chrome()
