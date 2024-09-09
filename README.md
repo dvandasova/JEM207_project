@@ -58,12 +58,8 @@ Now you are good to proceed with the rest.
 Our project involves web scraping of both flight and accomodation options. We use Selenium to interact with the web elements and to also reduce the risk of being locked out by CAPTCHA due to Selenium imitating human behavior (imitating pressing keyboard and clicking) as well as BeautifulSoup for HTML parsing.
 
 Overall scraping is set to be as consistent and replicable as possible, resulting in higher scraping times. Feel free to adjust sleep parametres in our code to reduce the scraping time.
-##### Flights
-For scraping flights we specificaly used Selenium, BeautifulSoup, Pandas (for data manipulation) and Time (for adding delays during scraping). 
 
-The scraped site is the flight section of kayak.com 
-
-##Key aspect of the scraping: 
+##### Key aspect of the scraping
 Code closes any popup windows which might or might not appear after opening the website, possibly limiting the full content from loading. Further ensuring that all the necessary scrapable elements are loaded, we use sleep statements, which surprisingly led to more consistent result than using "WebDriverWait", which appears to be universally the more popular option. Lastly, we ensure that no layover flights are present, by removing flights featuring "multiple airlines".
 
 Using our scraping mechanism we are able to consistently obtain
@@ -72,18 +68,24 @@ Departure and return dates
 Flight prices
 And inherently also the cheapest flight by further processing the obtained flight prices (it would be possible to also account for the quality of the flight, e.g. airline, departure time, with flights in the night being less desirable etc.), but even though adding this feature would not be difficult, the complexity was already high to not include it.
 
-#### Accomodation Possibilities
+######Captcha challenge
+CAPTCHA sometimes appearing after longer periods of scraping (usually 15-20 minutes), which on a few hour scrape poses an issue. We partially solved it by reloading the WebDriver after each scraping iteration, essentially clearing the cache and lowering the chances of being caugth by captcha, reloading the page multiple times, which on multiple occasions was able to bypass the captcha completely, and lastly using Selenium which imitates human behavior, i.e. further decreasing the risk of CAPTCHA. 
+To be completely honest, there is still a risk of CAPTCHA, but we did our best to limit the risks. 
+
+We were able to obtain Location, Name, Rating and Price of each hotel in each scraping iteration, which is then later used for further manipulation and package bundling. 
+
+##### Flights
+For scraping flights we specificaly used Selenium, BeautifulSoup, Pandas (for data manipulation) and Time (for adding delays during scraping). 
+
+The scraped site is the flight section of kayak.com 
+
+##### Accomodation
 We use the same combination of packages for accommodation scraping as for flight scraping. 
 
 Scraping accommodation was a little bit difficult with running into multiple issues: 
 Accommodation either not having rating, price or being not able to be located via used geolocation packages: solved by omitting these entries from the newly created dataset completely in each scraping iteration
 
 Accommodation not being fully displayed on the page: partially solved by "Keys.PAGE_DOWN" loop, which sent the webdriver to the bottom of the page
-
-Captcha challenge: CAPTCHA sometimes appearing after longer periods of scraping (usually 15-20 minutes), which on a few hour scrape poses an issue. We partially solved it by reloading the WebDriver after each scraping iteration, essentially clearing the cache and lowering the chances of being caugth by captcha, reloading the page multiple times, which on multiple occasions was able to bypass the captcha completely, and lastly using Selenium which imitates human behavior, i.e. further decreasing the risk of CAPTCHA. 
-To be completely honest, there is still a risk of CAPTCHA, but we did our best to limit the risks. 
-
-We were able to obtain Location, Name, Rating and Price of each hotel in each scraping iteration, which is then later used for further manipulation and package bundling. 
 
 #### Geo-locations
 Geo-location, i.e., distance between accommodation and the match venue, is one of the criteria used to sort and create the accommodation bundles. 
