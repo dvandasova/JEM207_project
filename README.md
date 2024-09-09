@@ -1,4 +1,21 @@
 # JEM207_project
+## HOW TO RUN
+In the 04_RUN file there are the following files:
+1. RUN_main.ipynb
+2. RUN_full-scrape.ipynb
+3. full-scrape.xlsx
+4. iternal-data.xlsx
+5. input.txt
+
+To run the main part of the project, it is necessary to run the RUN_full-scrape.ipynb to obtain the full-scrape.xlsx dataset that is essential to plot the visuals. For time purposes, we provide the full-scrape.xlsx dataset ready for importing into the main notebook.
+
+After obtaining the full-scrape.xlsx dataset, proceed to the main part of the project.
+
+To provide your input, download the input.txt file to your device, copy the filepath and insert it to the highlighted place in the RUN_main.ipynb file. This highlighted place is located at the top of the notebook.
+In your input.txt, write a code of a match on the 2nd line. You cannot enter a code related to a match that is about to happen in less then 2 weeks time - if you try to use it, the RUN_main.ipyn notebook will notify you.
+
+Now you are ready to proceed to the RUN_main.ipynb notebook and run it from the top.
+
 ## Spectators Unlimited Ltd. (Final project of subject JEM207)
 
 ### Motivation for the Project
@@ -26,7 +43,7 @@ Each component and its functionalities are further described below.
 #### Input
 The input section of the code loads the internal database from the git repository, checks for correct form the file (correct content and prder of columns) and saves the data as a data frame with the date in date-time format. 
 
-Then, the user input containing a unique match code inserted by the user is loaded. The code then checks whether the match code is valid and whether it points to a date in the future (there will be no flights and accommodation options for dates that occured in the past).
+Then, the user input containing a unique match code inserted by the user is loaded. The code then checks whether the match code is valid and whether it points to a date at least 2 weeks in the future (there will be no flights and accommodation options for dates that occured in the past or that are too close to today).
 
 Finally, the code extracts the primary match code and subsequently the corresponding line in the internal database.
 
