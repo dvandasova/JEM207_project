@@ -39,6 +39,8 @@ Now you are good to proceed with the rest.
 
 #### Scraping
 Our project involves web scraping of both flight and accomodation options. We use Selenium to interact with the web elements and to also reduce the risk of being locked out by CAPTCHA due to Selenium imitating human behavior (imitating pressing keyboard and clicking) as well as BeautifulSoup for HTML parsing.
+
+Overall scraping is set to be as consistent and replicable as possible, resulting in higher scraping times. Feel free to adjust sleep parametres in our code to reduce the scraping time.
 ##### Flights
 For scraping flights we specificaly used Selenium, BeautifulSoup, Pandas (for data manipulation) and Time (for adding delays during scraping). 
 
