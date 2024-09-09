@@ -63,7 +63,10 @@ Now you are good to proceed with the rest.
 - What weights were placed at each attributes?
 - What travel packages were built?
 
-#### Output & Visualization
-[to be finalized upon finishing the code]
-- How does the output look like?
-- Visualizations???
+#### Output & Visualizations
+##### Visualizations
+Visulizations in this project aim to show the user the demand around other matches based on accommodation type (Standard, Superior, Luxurious), and potentially help him when selecting future stays. The project contains 2 types of visualizations - bar chart and heat maps.
+
+The bar chart shows mean price of each accommodation type in each match day, essentially showing which match day is the cheapest to book.
+
+Heat maps are plotted for each accommodation type separately and show the mean price for each combination of teams, essentially showing which combination of team is the least and most premium. As a byproduct, the heatmap can indicate which teams are most likely scoring the highest since the demand to see them will be the strongest.
