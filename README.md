@@ -93,11 +93,6 @@ Geo-location, i.e., distance between accommodation and the match venue, is one o
 
 To calculate the distances, we used the geopy library to first obtain coordinates of the accommodation possibilites and the match venue, then we calculated the distance between them and sorted from nearest to furthest. After that, a range of all the distances was created and the accommodation possibilities were ranked into 3 categories based on percentiles within that range.
 
-#### Combination Algorythm
-[to be finalized upon finishing the code]
-- What weights were placed at each attributes?
-- What travel packages were built?
-
 #### Output & Visualizations
 ##### Visualizations
 Visulizations in this project aim to show the user the demand around other matches based on accommodation type (Standard, Superior, Luxurious), and potentially help him when selecting future stays. The project contains 2 types of visualizations - bar chart and heat maps.
