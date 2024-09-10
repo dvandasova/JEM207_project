@@ -26,9 +26,7 @@ In Europe, however, this segment still remains rather unsaturated. And that is w
 We bring sports tourism to the public such that once someone secures their ticket, he can select pre-made packages with travel and accommodation options based on package attributes and his budget. Our use case will be demonstrated on the case of [XX] which will take place after the project's deadline and will therefore ensure smooth performance of the code.
 
 ### Technology Toolkit
-[to be finalized upon finishing the code] Can this be replaced by the requirements.txt file?
-- What libraries and components of them we used and something about them - version, why? etc.
-- In case of geopy, mention that it uses openmaps (or what)
+To build the code, we used Python 3.12.2 and Python 3.11.5. Used librarioes can be accessed from the requirements file.
 
 ### Project Components
 Spectators Unlimited Ltd. solution contains the following components:
