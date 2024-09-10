@@ -7,14 +7,17 @@ In the main folder there are the following files:
 4. iternal-data.xlsx
 5. input.txt
 
-To run the main part of the project, it is necessary to run the RUN_full-scrape.ipynb to obtain the full-scrape.xlsx dataset that is essential to plot the visuals. For time purposes, we provide the full-scrape.xlsx dataset ready for importing into the main notebook.
+The RUN_full-scrape file is designed to scrape all necessary data about the next 90 Bundesliga matches (not full season for convenience sake - the same code would work also for the whole season)
 
-After obtaining the full-scrape.xlsx dataset, proceed to the main part of the project.
+The RUN_main file is designed to skip the whole scraping process with visualizations being made from pre-scraped dataset (from 9/10/2024 - M/D/Y) and also to scrape individual matches of your choice to check the current situation.
+To scrape the indidual match, download the input.txt file to your device, copy the filepath and insert it to the highlighted place in the RUN_main.ipynb file. This highlighted place is located at the top of the notebook.
+In your input.txt, write a code of a match on the 2nd line. You cannot enter a code related to a match that is about to happen in less then 2 weeks time - if you try to use it, the RUN_main.ipyn notebook will not return any data. That is for omitting dates in close proximity with no flights or accommodation.
 
-To provide your input, download the input.txt file to your device, copy the filepath and insert it to the highlighted place in the RUN_main.ipynb file. This highlighted place is located at the top of the notebook.
-In your input.txt, write a code of a match on the 2nd line. You cannot enter a code related to a match that is about to happen in less then 2 weeks time - if you try to use it, the RUN_main.ipyn notebook will notify you.
+Now you are ready to proceed to the RUN_main.ipynb notebook and run it from the top. Or you can try to see how the whole scraping process went in the RUN_full-scrape file. 
 
-Now you are ready to proceed to the RUN_main.ipynb notebook and run it from the top.
+Please also have a look into our app folder, where are located all defined functions we use in the code. 
+
+We had fun doing the project and hope you like it!:)
 
 ## Spectators Unlimited Ltd. (Final project of subject JEM207)
 
