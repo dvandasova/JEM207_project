@@ -9,7 +9,7 @@ In the main folder there are the following files:
 
 The RUN_full-scrape file is designed to scrape all necessary data about the next 90 Bundesliga matches (not full season for convenience sake - the same code would work also for the whole season)
 
-The RUN_main file is designed to skip the whole scraping process with visualizations being made from pre-scraped dataset (from 9/10/2024 - M/D/Y) and also to scrape individual matches of your choice to check the current situation.
+The RUN_main file is designed to skip the whole scraping process with visualizations being made from pre-scraped dataset (from 9/10/2024-11/30/24, M/D/Y) and also to scrape individual matches of your choice to check the current situation.
 To scrape the indidual match, download the input.txt file to your device, copy the filepath and insert it to the highlighted place in the RUN_main.ipynb file. This highlighted place is located at the top of the notebook.
 In your input.txt, write a code of a match on the 2nd line. You cannot enter a code related to a match that is about to happen in less then 2 weeks time - if you try to use it, the RUN_main.ipyn notebook will not return any data. That is for omitting dates in close proximity with no flights or accommodation.
 
