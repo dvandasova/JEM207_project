@@ -1,0 +1,98 @@
+Enter event code from the list of codes on the line below:
+
+
+
+Only select matches that are to happen in at least 2weeks time.
+
+code
+bundes000, 02.09.2024, Borussia Dortmund vs. St. Pauli, Dortmund	
+bundes001, 21.09.2024, RB Leipzig vs. Union Berlin, Leipzig
+bundes002, 21.09.2024, Borussia Dortmund vs. Heidenheim 1846, Dortmund
+bundes003, 21.09.2024, 1899 Sinsheim vs. Bayer Leverkusen, Sinsheim
+bundes004, 21.09.2024, Freiburg vs. Bochum, Freiburg
+bundes005, 21.09.2024, Augsburg vs. St. Pauli, Augsburg
+bundes006, 21.09.2024, Wolfsburg vs. Eintracht Frankfurt, Wolfsburg
+bundes007, 21.09.2024, Mainz 05 vs. Werder Bremen, Mainz
+bundes008, 21.09.2024, Bor. Mönchengladbach vs. VfB Stuttgart, Mönchengladbach
+bundes009, 21.09.2024, Holstein Kiel vs. Bayern München, Kiel
+bundes010, 21.09.2024, Bayer Leverkusen vs. Wolfsburg, Leverkusen
+bundes011, 21.09.2024, VfB Stuttgart vs. Borussia Dortmund, Stuttgart
+bundes012, 21.09.2024, Eintracht Frankfurt vs. Bor. Mönchengladbach, Frankfurt
+bundes013, 21.09.2024, Heidenheim 1846 vs. Freiburg, Heidenheim
+bundes014, 21.09.2024, Werder Bremen vs. Bayern München, Bremen
+bundes015, 21.09.2024, Augsburg vs. Mainz 05, Augsburg
+bundes016, 21.09.2024, Union Berlin vs. 1899 Sinsheim, Berlin
+bundes017, 21.09.2024, Bochum vs. Holstein Kiel, Bochum
+bundes018, 21.09.2024, St. Pauli vs. RB Leipzig, Hamburg
+bundes019, 28.09.2024, Bayern München vs. Bayer Leverkusen, Munich
+bundes020, 28.09.2024, RB Leipzig vs. Augsburg, Leipzig
+bundes021, 28.09.2024, Borussia Dortmund vs. Bochum, Dortmund
+bundes022, 28.09.2024, 1899 Sinsheim vs. Werder Bremen, Sinsheim
+bundes023, 28.09.2024, Freiburg vs. St. Pauli, Freiburg
+bundes024, 28.09.2024, Wolfsburg vs. VfB Stuttgart, Wolfsburg
+bundes025, 28.09.2024, Mainz 05 vs. Heidenheim 1846, Mainz
+bundes026, 28.09.2024, Bor. Mönchengladbach vs. Union Berlin, Mönchengladbach
+bundes027, 28.09.2024, Holstein Kiel vs. Eintracht Frankfurt, Kiel
+bundes028, 05.10.2024, Bayer Leverkusen vs. Holstein Kiel, Leverkusen
+bundes029, 05.10.2024, VfB Stuttgart vs. 1899 Sinsheim, Stuttgart
+bundes030, 05.10.2024, Eintracht Frankfurt vs. Bayern München, Frankfurt
+bundes031, 05.10.2024, Heidenheim 1846 vs. RB Leipzig, Heidenheim
+bundes032, 05.10.2024, Werder Bremen vs. Freiburg, Bremen
+bundes033, 05.10.2024, Augsburg vs. Bor. Mönchengladbach, Augsburg
+bundes034, 05.10.2024, Union Berlin vs. Borussia Dortmund, Berlin
+bundes035, 05.10.2024, Bochum vs. Wolfsburg, Bochum
+bundes036, 05.10.2024, St. Pauli vs. Mainz 05, Hamburg
+bundes037, 19.10.2024, Bayer Leverkusen vs. Eintracht Frankfurt, Leverkusen
+bundes038, 19.10.2024, Bayern München vs. VfB Stuttgart, Munich
+bundes039, 19.10.2024, Borussia Dortmund vs. St. Pauli, Dortmund
+bundes040, 19.10.2024, 1899 Sinsheim vs. Bochum, Sinsheim
+bundes041, 19.10.2024, Freiburg vs. Augsburg, Freiburg
+bundes042, 19.10.2024, Wolfsburg vs. Werder Bremen, Wolfsburg
+bundes043, 19.10.2024, Mainz 05 vs. RB Leipzig, Mainz
+bundes044, 19.10.2024, Bor. Mönchengladbach vs. Heidenheim 1846, Mönchengladbach
+bundes045, 19.10.2024, Holstein Kiel vs. Union Berlin, Kiel
+bundes046, 26.10.2024, VfB Stuttgart vs. Holstein Kiel, Stuttgart
+bundes047, 26.10.2024, RB Leipzig vs. Freiburg, Leipzig
+bundes048, 26.10.2024, Heidenheim 1846 vs. 1899 Sinsheim, Heidenheim
+bundes049, 26.10.2024, Werder Bremen vs. Bayer Leverkusen, Bremen
+bundes050, 26.10.2024, Augsburg vs. Borussia Dortmund, Augsburg
+bundes051, 26.10.2024, Mainz 05 vs. Bor. Mönchengladbach, Mainz
+bundes052, 26.10.2024, Union Berlin vs. Eintracht Frankfurt, Berlin
+bundes053, 26.10.2024, Bochum vs. Bayern München, Bochum
+bundes054, 26.10.2024, St. Pauli vs. Wolfsburg, Hamburg
+bundes055, 02.11.2024, Bayer Leverkusen vs. VfB Stuttgart, Leverkusen
+bundes056, 02.11.2024, Bayern München vs. Union Berlin, Munich
+bundes057, 02.11.2024, Borussia Dortmund vs. RB Leipzig, Dortmund
+bundes058, 02.11.2024, Eintracht Frankfurt vs. Bochum, Frankfurt
+bundes059, 02.11.2024, 1899 Sinsheim vs. St. Pauli, Sinsheim
+bundes060, 02.11.2024, Freiburg vs. Mainz 05, Freiburg
+bundes061, 02.11.2024, Wolfsburg vs. Augsburg, Wolfsburg
+bundes062, 02.11.2024, Bor. Mönchengladbach vs. Werder Bremen, Mönchengladbach
+bundes063, 02.11.2024, Holstein Kiel vs. Heidenheim 1846, Kiel
+bundes064, 09.11.2024, VfB Stuttgart vs. Eintracht Frankfurt, Stuttgart
+bundes065, 09.11.2024, RB Leipzig vs. Bor. Mönchengladbach, Leipzig
+bundes066, 09.11.2024, Heidenheim 1846 vs. Wolfsburg, Heidenheim
+bundes067, 09.11.2024, Werder Bremen vs. Holstein Kiel, Bremen
+bundes068, 09.11.2024, Augsburg vs. 1899 Sinsheim, Augsburg
+bundes069, 09.11.2024, Mainz 05 vs. Borussia Dortmund, Mainz
+bundes070, 09.11.2024, Union Berlin vs. Freiburg, Berlin
+bundes071, 09.11.2024, Bochum vs. Bayer Leverkusen, Bochum
+bundes072, 09.11.2024, St. Pauli vs. Bayern München, Hamburg
+bundes073, 23.11.2024, Bayer Leverkusen vs. Heidenheim 1846, Leverkusen
+bundes074, 23.11.2024, VfB Stuttgart vs. Bochum, Stuttgart
+bundes075, 23.11.2024, Bayern München vs. Augsburg, Munich
+bundes076, 23.11.2024, Borussia Dortmund vs. Freiburg, Dortmund
+bundes077, 23.11.2024, Eintracht Frankfurt vs. Werder Bremen, Frankfurt
+bundes078, 23.11.2024, 1899 Sinsheim vs. RB Leipzig, Sinsheim
+bundes079, 23.11.2024, Wolfsburg vs. Union Berlin, Wolfsburg
+bundes080, 23.11.2024, Bor. Mönchengladbach vs. St. Pauli, Mönchengladbach
+bundes081, 23.11.2024, Holstein Kiel vs. Mainz 05, Kiel
+bundes082, 23.11.2024, RB Leipzig vs. Wolfsburg, Leipzig
+bundes083, 23.11.2024, Borussia Dortmund vs. Bayern München, Dortmund
+bundes084, 23.11.2024, Heidenheim 1846 vs. Eintracht Frankfurt, Heidenheim
+bundes085, 23.11.2024, Werder Bremen vs. VfB Stuttgart, Bremen
+bundes086, 23.11.2024, Freiburg vs. Bor. Mönchengladbach, Freiburg
+bundes087, 23.11.2024, Augsburg vs. Bochum, Augsburg
+bundes088, 23.11.2024, Mainz 05 vs. 1899 Sinsheim, Mainz
+bundes089, 23.11.2024, Union Berlin vs. Bayer Leverkusen, Berlin
+bundes090, 23.11.2024, St. Pauli vs. Holstein Kiel, Hamburg
