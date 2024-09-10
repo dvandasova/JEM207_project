@@ -1,6 +1,6 @@
 # JEM207_project
 ## HOW TO RUN
-In the 04_RUN folder there are the following files:
+In the main folder there are the following files:
 1. RUN_main.ipynb
 2. RUN_full-scrape.ipynb
 3. full-scrape.xlsx
