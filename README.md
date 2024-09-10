@@ -31,7 +31,7 @@ To build the code, we used Python 3.12.2 and Python 3.11.5. Used librarioes can 
 ### Project Components
 Spectators Unlimited Ltd. solution contains the following components:
 1. Input
-2. Scraping (flights & accommodation possibilitiesú
+2. Scraping (flights & accommodation possibilities)
 5. Geo-locations
 6. Combination Algorithm
 7. Output
