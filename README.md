@@ -1,5 +1,5 @@
 # JEM207_project
-## HOW TO RUN (project made using Python 3.12.2)
+## HOW TO RUN (project made using Python 3.12.2,3.11.5)
 In the main folder there are the following files:
 1. RUN_main.ipynb
 2. RUN_full-scrape.ipynb
